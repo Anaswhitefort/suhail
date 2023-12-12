@@ -99,7 +99,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Foundation`,
-        short_name: `Suhail Saban`,
+        short_name: `Foundation`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#ec1b30`,
