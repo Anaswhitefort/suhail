@@ -22,7 +22,7 @@ import {
 import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
-import blogListHome from "../componentslisting-list-home"
+import blogListHome from "../blog-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
