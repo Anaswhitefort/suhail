@@ -12,11 +12,11 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-     © <span id="currentYear"></span> Suhail Saban 
+     © 2024 Suhail Saban 
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
-         <Link to="https://wa.me/971563901109">Contact developer</Link>
+         <Link to="https://wa.me/971563901109">Need website like this ?</Link>
       </p>
     </div>
   </footer>
