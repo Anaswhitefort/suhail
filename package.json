@@ -1,6 +1,6 @@
 {
   "name": "@stackrole/gatsby-starter-foundation",
-  "description": "A starter to launch your blazing fast personal website and a Listing, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
+  "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
   "version": "2.0.0",
   "author": "Stackrole <stackrole@gmail.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.6.0",
-    "gatsby": "^4.7.1",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-manifest": "^4.7.0",

@@ -5,7 +5,7 @@ import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 
 import PostCard from "./post-card"
 
-export default function ListingListHome(props) {
+export default function blogListHome(props) {
   const data = props.data
   const posts = data.edges
     .filter(edge => !!edge.node.frontmatter.date)
@@ -16,7 +16,7 @@ export default function ListingListHome(props) {
 const PostMaker = ({ data }) => (
   <section className="home-posts">
     <h2>
-      Latest <strong>Listings</strong>{" "}
+      Latest <strong>blogs</strong>{" "}
       <span className="icon -right">
         <RiArrowDownLine />
       </span>
@@ -24,7 +24,7 @@ const PostMaker = ({ data }) => (
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link
       className="button"
-      to="/Listing"
+      to="listing"
       sx={{
         variant: "variants.button",
       }}

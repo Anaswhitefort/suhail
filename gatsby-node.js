@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
-  const ListingList = path.resolve(`./src/templates/Listing-list.js`)
+  const blogList = path.resolve(`./src/templates/blog-list.js`)
 
   const result = await graphql(`
     {
@@ -31,7 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
-  let ListingPostsCount = 0
+  let blogPostsCount = 0
 
   posts.forEach((post, index) => {
     const id = post.node.id
@@ -51,20 +51,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
 
-    // Count Listing posts.
-    if (post.node.frontmatter.template === "Listing-post") {
-      ListingPostsCount++
+    // Count blog posts.
+    if (post.node.frontmatter.template === "blog-post") {
+      blogPostsCount++
     }
   })
 
-  // Create Listing-list pages
+  // Create blog-list pages
   const postsPerPage = 9
-  const numPages = Math.ceil(ListingPostsCount / postsPerPage)
+  const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/Listing` : `/Listing/${i + 1}`,
-      component: ListingList,
+      path: i === 0 ? `listing` : `listing/${i + 1}`,
+      component: blogList,
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,

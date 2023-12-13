@@ -22,7 +22,7 @@ import {
 import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
-import ListingListHome from "../components/Listing-list-home"
+import blogListHome from "../componentslisting-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -47,7 +47,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "Listing-post" } } }
+      filter: { frontmatter: { template: { eq: "blog-post" } } }
       limit: 6
     ) {
       edges {
@@ -252,7 +252,7 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <ListingListHome data={posts} />
+      <blogListHome data={posts} />
     </Layout>
   )
 }
