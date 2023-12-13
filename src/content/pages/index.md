@@ -3,10 +3,9 @@ template: index-page
 slug: /
 title: Suhail Saban
 tagline: Real Estate Broker
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/screenshot-2023-12-13-at-3.35.55-pm.png
 cta:
-  ctaText: Know more
+  ctaText: Read more
   ctaLink: /about
 ---
-
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+At the forefront of Dubai's evolving real estate scene, Suhail Saban i represents not just a broker, but a rising individual reshaping the industry with his blend of youthful energy, expertise, and a commitment to redefining standards in service and success.
