@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: Listing-post
 title: Plant on my desk is a friend
 slug: /post-no-image
 date: 2020-05-11 08:40

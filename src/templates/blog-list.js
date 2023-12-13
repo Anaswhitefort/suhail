@@ -21,11 +21,11 @@ const styles = {
   },
 }
 
-export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
+export const ListingListQuery = graphql`
+  query ListingListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      filter: { frontmatter: { template: { eq: "Listing-post" } } }
       limit: $limit
       skip: $skip
     ) {
@@ -64,7 +64,7 @@ const Pagination = props => (
       {Array.from({ length: props.numPages }, (_, i) => (
         <li key={`pagination-number${i + 1}`}>
           <Link
-            to={`${props.blogSlug}${i === 0 ? "" : i + 1}`}
+            to={`${props.ListingSlug}${i === 0 ? "" : i + 1}`}
             className={props.currentPage === i + 1 ? "is-active num" : "num"}
           >
             {i + 1}
@@ -84,16 +84,16 @@ const Pagination = props => (
     </ul>
   </div>
 )
-class BlogIndex extends React.Component {
+class ListingIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
-    const blogSlug = "/blog/"
+    const ListingSlug = "/Listing/"
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage =
-      currentPage - 1 === 1 ? blogSlug : blogSlug + (currentPage - 1).toString()
-    const nextPage = blogSlug + (currentPage + 1).toString()
+      currentPage - 1 === 1 ? ListingSlug : ListingSlug + (currentPage - 1).toString()
+    const nextPage = ListingSlug + (currentPage + 1).toString()
 
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
@@ -102,18 +102,18 @@ class BlogIndex extends React.Component {
       isFirst,
       prevPage,
       numPages,
-      blogSlug,
+      ListingSlug,
       currentPage,
       isLast,
       nextPage,
     }
 
     return (
-      <Layout className="blog-page">
+      <Layout className="Listing-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Listing — Page " + currentPage + " of " + numPages}
           description={
-            "Stackrole base blog page " + currentPage + " of " + numPages
+            "Stackrole base Listing page " + currentPage + " of " + numPages
           }
         />
         <h1>Linstings</h1>
@@ -124,4 +124,4 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default ListingIndex

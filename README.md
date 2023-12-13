@@ -8,7 +8,7 @@
 
 # Foundation
 
-A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
+A starter to launch your blazing fast personal website and a Listing, Built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stackrole/gatsby-starter-foundation)
 
@@ -18,7 +18,7 @@ Need help launching your website? My DM's are open on <a href="https://twitter.c
 
 ## 👌 Features
 
-- A Blog and Personal website with Netlify CMS.
+- A Listing and Personal website with Netlify CMS.
 - Responsive Web Design
 - Dark / Light Mode
 - Customize theme color from CMS
@@ -28,7 +28,7 @@ Need help launching your website? My DM's are open on <a href="https://twitter.c
 - Search bar
 - Customize content of Homepage, About and Contact page.
 - Customize content of Homepage, About and Contact page.
-- Add / Modify / Delete blog posts.
+- Add / Modify / Delete Listing posts.
 - Edit website settings, Add Google Analytics and make it your own all with in the CMS.
 - SEO Optimized
 - Social media icons

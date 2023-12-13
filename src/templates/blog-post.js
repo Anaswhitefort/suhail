@@ -27,7 +27,7 @@ const styles = {
 const Pagination = props => (
   <div className="pagination -post" sx={styles.pagination}>
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
+      {props.previous && props.previous.frontmatter.template === "Listing-post" && (
         <li>
           <Link to={props.previous.frontmatter.slug} rel="prev">
             <p
@@ -46,7 +46,7 @@ const Pagination = props => (
           </Link>
         </li>
       )}
-      {props.next && props.next.frontmatter.template === "blog-post" && (
+      {props.next && props.next.frontmatter.template === "Listing-post" && (
         <li>
           <Link to={props.next.frontmatter.slug} rel="next">
             <p
@@ -91,7 +91,7 @@ const Post = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      <article className="blog-post">
+      <article className="Listing-post">
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
@@ -109,7 +109,7 @@ const Post = ({ data, pageContext }) => {
         </header>
 
         <div
-          className="blog-post-content"
+          className="Listing-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
@@ -121,7 +121,7 @@ const Post = ({ data, pageContext }) => {
 export default Post
 
 export const pageQuery = graphql`
-  query BlogPostQuery($id: String!) {
+  query ListingPostQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

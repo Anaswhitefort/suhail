@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: Listing-post
 slug: /markdown
 date: 2020-05-09T05:53:16.102Z
 title: "Markdown: Syntax"

@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: Listing-post
 title: Sesame Momos & Gaming
 slug: /sesame-momos
 date: 2020-05-13 12:47

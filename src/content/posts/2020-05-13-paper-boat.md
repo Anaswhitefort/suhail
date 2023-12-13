@@ -1,5 +1,5 @@
 ---
-template: blog-post
+template: Listing-post
 title: Character design
 slug: /character-design
 date: 2020-05-23 23:40
