@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Harbour Views Tower 1
+title: Creek Harbour Views Tower 1
 slug: creekharbour
 date: 2020-05-13 12:55
 description: |-
