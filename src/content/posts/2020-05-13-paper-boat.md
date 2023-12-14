@@ -8,9 +8,12 @@ description: |
 featuredImage: /assets/whatsapp-image-2023-12-14-at-12.29.38-pm.jpeg
 ---
 ### **Harbour Views Tower**
-Price 3.8
-3bed
-Creek harbour\
+
+**Price 3.8**
+
+**3 bed**
+
+**Creek harbour**
 \
 \
 🏡 **Exquisite Living in Damac Hills 2, Dubai** 🌟
