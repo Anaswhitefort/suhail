@@ -16,6 +16,7 @@ featuredImage: /assets/whatsapp-image-2023-12-14-at-12.29.38-pm.jpeg
 **Creek harbour**
 \
 \
+\
 🏡 **Exquisite Living in Damac Hills 2, Dubai** 🌟
 
 Nestled within the prestigious community of Damac Hills 2, behold a stunning opportunity to own a luxurious 3-bedroom townhouse, the Claret model, presenting a seamless blend of elegance and modern comfort. 
@@ -37,6 +38,8 @@ Seize the chance to embrace a lifestyle of opulence and comfort in this captivat
 Contact us now to schedule a viewing and make this prestigious Damac Hills 2 townhouse your new address in the heart of Dubai's prestigious landscape. Live the life you've always envisioned in this remarkable home! 🌟🏠
 
 ![](/assets/whatsapp-image-2023-12-14-at-12.29.39-pm.jpeg)
+
+![](/assets/whatsapp-image-2023-12-14-at-12.29.41-pm-2-.jpeg)
 
 \
 ✨ **Spacious 3-Bedroom Townhouse**: Experience lavish living spaces crafted with meticulous attention to detail, offering ample room for your family's comfort and lifestyle needs.
