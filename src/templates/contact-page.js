@@ -69,13 +69,14 @@ const Contact = ({ data }) => {
           </p>
           <p>
             <label>
-              Subject
+              What is the best time to contact you during the day ?
               <input type="text" name="subject" required />
             </label>
           </p>
-          <p>
+          <p>   
             <label>
-              Message<textarea name="message" required></textarea>
+            Please explain more your request ,to find a suitable project for you in Dubai.
+            <textarea name="message" required></textarea>
             </label>
           </p>
           <p className="text-align-right">
