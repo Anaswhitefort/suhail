@@ -19,10 +19,10 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
-import { FaTiktok, FaWordpress, FaVk } from "react-icons/fa"
+import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
-import blogListHome from "../components/blog-list-home"
+import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
@@ -80,121 +80,114 @@ const HomePage = ({ data }) => {
     return (
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Facebook" rel="noopener noreferrer">
-            <RiFacebookBoxFill alt="Facebook icon"/>
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiFacebookBoxFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Twitter" rel="noopener noreferrer">
-            <RiTwitterFill alt="Twitter icon"/>
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiTwitterFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "linkedin" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Linkedin" rel="noopener noreferrer">
-            <RiLinkedinBoxFill alt="Linkedin icon"/>
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiLinkedinBoxFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Youtube" rel="noopener noreferrer">
-            <RiYoutubeFill alt="Youtube icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiYoutubeFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Instagram" rel="noopener noreferrer">
-            <RiInstagramFill alt="Instagram icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiInstagramFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "rss" ? (
-          <a href={icons.url} target="_blank" aria-label="link to RSS" rel="noopener noreferrer">
-            <RiRssFill alt="RSS icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiRssFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "github" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Github" rel="noopener noreferrer">
-            <RiGithubFill alt="Github icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiGithubFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "telegram" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Telegram" rel="noopener noreferrer">
-            <RiTelegramFill alt="Telegram icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiTelegramFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "pinterest" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Pinterest" rel="noopener noreferrer">
-            <RiPinterestFill alt="Pinterest icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiPinterestFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "snapchat" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Snapchat" rel="noopener noreferrer">
-            <RiSnapchatFill alt="Snapchat icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiSnapchatFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "skype" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Skype" rel="noopener noreferrer">
-            <RiSkypeFill alt="Skype icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiSkypeFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "wordpress" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Wordpress" rel="noopener noreferrer">
-            <FaWordpress alt="Wordpress icon" />
-          </a>
-        ) : (
-          ""
-        )}
-        {icons.icon === "tiktok" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Wordpress" rel="noopener noreferrer">
-            <FaTiktok alt="tiktok icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <FaWordpress />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "dribbble" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Dribbble" rel="noopener noreferrer">
-            <RiDribbbleFill alt="Dribbble icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiDribbbleFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "medium" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Medium" rel="noopener noreferrer">
-            <RiMediumFill alt="Medium icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiMediumFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "behance" ? (
-          <a href={icons.url} target="_blank" aria-label="link to Behance" rel="noopener noreferrer">
-            <RiBehanceFill alt="Behance icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <RiBehanceFill />
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "vk" ? (
-          <a href={icons.url} target="_blank" aria-label="link to vk" rel="noopener noreferrer">
-            <FaVk alt="vk icon" />
-          </a>
+          <Link to={icons.url} target="_blank">
+            <FaVk />
+          </Link>
         ) : (
           ""
         )}
@@ -252,7 +245,7 @@ const HomePage = ({ data }) => {
           )}
         </div>
       </div>
-      <blogListHome data={posts} />
+      <BlogListHome data={posts} />
     </Layout>
   )
 }
