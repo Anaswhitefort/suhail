@@ -63,6 +63,12 @@ const Contact = ({ data }) => {
           </p>
           <p>
             <label>
+              Number
+              <input type="number" name="number" required />
+            </label>
+          </p>
+          <p>
+            <label>
               Subject
               <input type="text" name="subject" required />
             </label>
