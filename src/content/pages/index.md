@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Suhail Saban
 tagline: Real Estate Broker
-featuredImage: /assets/my-pic.jpeg
+featuredImage: /assets/suhail-saban.jpeg
 cta:
   ctaText: Read more
   ctaLink: /about
