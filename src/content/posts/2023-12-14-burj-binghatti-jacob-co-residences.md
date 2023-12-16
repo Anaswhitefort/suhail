@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Burj Binghatti Jacob&Co Residences
-slug: /burjbinghatti
+slug: /burj-binghatti-Dubai-jacob&co
 date: 2023-12-14 19:37
 description: Burj Binghatti Jacob& Co Residences
 featuredImage: /assets/c11.jpg
